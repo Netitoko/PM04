@@ -1,0 +1,15 @@
+
+sudo apt update
+sudo apt install -y build-essential dkms linux-headers-$(uname -r)
+
+cd /media/$USER/VBox_GAs_*
+(Замените * на версию, например, VBox_GAs_7.0.12).
+
+Запустите установку:
+sudo ./VBoxLinuxAdditions.run
+
+Если возникнет ошибка, попробуйте с ключом --force:
+sudo ./VBoxLinuxAdditions.run --force
+
+Перезагрузите Ubuntu
+sudo reboot
