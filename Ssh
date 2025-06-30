@@ -1,0 +1,15 @@
+1.1. Установка и базовая настройка SSH
+sudo apt update
+sudo apt install -y openssh-server
+sudo systemctl enable --now ssh  # Запуск и автозагрузка
+
+1.2. Проверка статуса
+sudo systemctl status ssh  # Должен быть "active (running)"
+
+Тут нужно будет нажать q
+
+1.3. ip a - узнать адрес
+
+1.4. Подключение с другого устройства
+ssh username@IP_сервера
+(ssh ren@192.168.1.100)
