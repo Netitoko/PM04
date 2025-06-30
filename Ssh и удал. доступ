@@ -14,3 +14,10 @@ sudo systemctl status ssh  # Должен быть "active (running)"
 ssh username@IP_сервера
 (ssh ren@192.168.1.100)
 
+1.5 Включить брандмауэр: 
+sudo ufw enable
+sudo ufw allow ssh
+
+2. Удаленный доступ к активной сессии
+В виндовс в cmd прописать ssh логин_в_линукс@127.0.0.1 -p 2222
+в linux ssh логин_в_линукс@127.0.0.1
