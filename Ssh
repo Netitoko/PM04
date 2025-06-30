@@ -13,3 +13,4 @@ sudo systemctl status ssh  # Должен быть "active (running)"
 1.4. Подключение с другого устройства
 ssh username@IP_сервера
 (ssh ren@192.168.1.100)
+
