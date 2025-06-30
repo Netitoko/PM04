@@ -1,0 +1,10 @@
+Создан установочный образ системы:
+sudo dd if=/dev/sda of=backup.img bs=4M status=progress
+
+Резервное копирование:
+sudo apt install timeshift
+sudo timeshift --create --comments "Daily Backup"
+создать копию в timeshift (rsync)
+
+Создание точки восстановления:
+Создание точки восстановления подразумевается в ОС  Windows или IOS, в Linux это не предусмотрено
