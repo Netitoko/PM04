@@ -1,0 +1,3 @@
+Установка виртуального принтера через терминал: 
+sudo apt install cups-pdf
+перезапуск: sudo systemctl restart cups
