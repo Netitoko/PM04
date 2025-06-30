@@ -1,0 +1,8 @@
+sudo nano /etc/sysctl.conf
+
+vm.swappiness=10 - минимизирует использование свопа, что ускоряет работу на SSD.
+vm.vfs_cache_pressure=50 - сохраняет больше файлового кэша в памяти, что ускоряет работу с файлами
+нажать ctrl+O и ctrl+X
+
+sudo sysctl --system
+sudo sysctl -a
